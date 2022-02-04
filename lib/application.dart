@@ -1,5 +1,6 @@
-import 'package:fabler/src/layouts/horizontal/pages/index/index.dart';
 import 'package:flutter/material.dart';
+import 'package:fabler/src/layouts/horizontal/pages/index/index.dart';
+import 'package:fabler/src/constants.dart' as constans;
 
 class Application extends StatefulWidget {
   const Application({Key? key}) : super(key: key);
@@ -17,6 +18,7 @@ class _ApplicationState extends State<Application> {
         primarySwatch: Colors.blue,
         primaryIconTheme: IconThemeData(color: Colors.black),
         primaryTextTheme: TextTheme(headline6: TextStyle(color: Colors.black)),
+        fontFamily: constans.fontFamily
       ),
       home: const IndexPage(),
     );;
