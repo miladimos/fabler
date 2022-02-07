@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fabler/src/layouts/horizontal/pages/index/index.dart';
-import 'package:fabler/src/constants.dart' as constans;
+import 'package:fabler/src/layouts/horizontal/pages/home/home_page.dart';
+import 'package:fabler/src/constants.dart';
 
 class Application extends StatefulWidget {
   const Application({Key? key}) : super(key: key);
@@ -13,14 +13,14 @@ class _ApplicationState extends State<Application> {
   @override
   Widget build(BuildContext context) {
      return MaterialApp(
-      title: 'Fabler Dashboard - Open Source and Powerful flutter web toolkit',
+      title: Constants.applicationDescription,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         primaryIconTheme: IconThemeData(color: Colors.black),
         primaryTextTheme: TextTheme(headline6: TextStyle(color: Colors.black)),
-        fontFamily: constans.fontFamily
+        fontFamily: Constants.fontFamily
       ),
-      home: const IndexPage(),
-    );;
+      home: const HomePage(),
+    );
   }
 }

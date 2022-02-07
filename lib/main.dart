@@ -24,6 +24,6 @@ class _FablerApplicationState extends State<FablerApplication> {
         primaryTextTheme: TextTheme(headline6: TextStyle(color: Colors.black)),
       ),
       home: const Application(),
-    );;
+    );
   }
 }
