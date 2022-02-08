@@ -1,4 +1,5 @@
 import 'package:fabler/src/constants/fabler_colors.dart';
+import 'package:fabler/src/layouts/widgets/fl_topbar.dart';
 import 'package:fabler/src/ui/components/buttons/flbutton.dart';
 import 'package:fabler/src/ui/components/cards/flcard.dart';
 import 'package:fabler/src/ui/components/containers/container_boxed.dart';
@@ -16,8 +17,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ContainerBoxed(
-        backgroundColor: FLColors.bgBitbucket,
-        child: Text('test'),
+        child: Column(
+          children: [
+            FLTopbar(),
+          ],
+        ),
       ),
     );
   }

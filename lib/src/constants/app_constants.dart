@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Constants {
+class AppConstants {
   static const String applicationTitle = "Fabler";
   static const String applicationDescription =
       "Fabler Dashboard - Open Source and Powerful flutter web toolkit";

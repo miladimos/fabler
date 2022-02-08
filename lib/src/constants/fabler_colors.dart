@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class FablerColors {
+class FLColors {
   static const Color bgPrimary = Color(0xff206bc4);
   static const Color bgSecondary = Color(0xff626976);
   static const Color bgSuccess = Color(0xff2fb344);
