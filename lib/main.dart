@@ -5,7 +5,6 @@ void main() {
   runApp(const FablerApplication());
 }
 
-
 class FablerApplication extends StatefulWidget {
   const FablerApplication({Key? key}) : super(key: key);
 
